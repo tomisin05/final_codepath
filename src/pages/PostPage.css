@@ -1,0 +1,80 @@
+.post-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+}
+
+.post-page h1 {
+    margin-bottom: 10px;
+}
+
+.post-page .author {
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 20px;
+}
+
+.post-page img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.post-page .actions button {
+    padding: 10px 25px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-size: 16px;
+}
+
+.post-page .actions button:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.comments-section {
+    margin-top: 40px;
+}
+
+.comments-section form {
+    margin-bottom: 20px;
+}
+
+.comments-section textarea {
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+}
+
+.comments-section button {
+    padding: 10px 25px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.comments-section button:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.comment {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+
+.comment-date {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9em;
+}
